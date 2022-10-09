@@ -312,3 +312,57 @@
     letter-spacing: 0.06em;
     color: #FFFFFF;
 }
+@media (max-width:1200px) {
+    .in--top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .in--bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:1000px) {
+    .footer__block {
+        gap: 30px;
+    }
+}
+@media (max-width:800px) {
+    .footer__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tytle {
+        padding: 0 207px;
+        font-size: 20px;
+    }
+}
+@media (max-width:600px) {
+    .prenav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .ftr__block--left h3 {
+        font-size: 25px;
+    }
+    .ftr__block--right h3 {
+        font-size: 25px;
+    }
+    .ftr-box h4 {
+        font-size: 15px;
+    }
+}
+@media (max-width:380px) {
+    .hd-link {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tytle {
+        padding: 0 30px;
+    }
+    .info_bottom {
+        gap: 10px;
+    }
+}

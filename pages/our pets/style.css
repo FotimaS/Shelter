@@ -336,6 +336,12 @@
         padding: 0 207px;
         font-size: 20px;
     }
+    .hd-link {
+        gap: 15px;
+    }
+    .tytle {
+        padding: 0;
+    }
 }
 @media (max-width:600px) {
     .prenav {
@@ -351,6 +357,9 @@
     }
     .ftr-box h4 {
         font-size: 15px;
+    }
+    .info-section {
+        padding: 25px 0 35px 0;
     }
 }
 @media (max-width:380px) {
